@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/yamingshan"
+        android:title="@string/yamingshan">
+
+        <!--<item>內有子選單與子選項-->
+        <menu>
+            <item
+                android:id="@+id/guide"
+                android:icon="@drawable/ic_beenhere_black_18dp"
+                android:title="@string/guide">
+
+            </item>
+
+            <item
+                android:id="@+id/traffic"
+                android:icon="@drawable/ic_directions_car_black_18dp"
+                android:title="@string/traffic">
+
+            </item>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/yushan"
+        android:icon="@drawable/ic_local_florist_black_18dp"
+        android:title="@string/yushan"
+        app:showAsAction="always"> <!--        將選項拉出成為Action按鈕，才會顯示圖示-->
+
+    </item>
+
+    <item
+        android:id="@+id/taroko"
+        android:title="@string/taroko">
+
+    </item>
+
+    <item
+        android:id="@+id/location"
+        android:title="@string/myLocation">
+
+    </item>
+
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit">
+
+    </item>
+
+</menu>

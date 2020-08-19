@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MenusDemo</string>
+    <string name="yamingshan">Yamingshan National Park</string>
+    <string name="guide">Guide</string>
+    <string name="traffic">Traffic</string>
+    <string name="yushan">Yushan National Park</string>
+    <string name="taroko">Taroko National Park</string>
+    <string name="myLocation">My Location</string>
+    <string name="exit">Exit</string>
+    <string name="clear">Clear</string>
+    <string name="backgroundColor">Change Background Color</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+</resources>
